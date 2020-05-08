@@ -60,7 +60,7 @@
 	<version>2.2</version>
 <configuration>  
 	<url>http://slave1:8070/manager/text</url>
-	<username>manager</username>
+	<username>root</username>
         <password>root</password>
   </configuration>
   </plugin>
