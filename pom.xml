@@ -70,8 +70,9 @@
 	<version>2.2</version>
 <configuration>  
 	<url>http://slave1:8070/manager/text</url>
-	<username>root</username>
-        <password>root</password>
+	<server>TomcatServer</server>
+                <path>/HelloSelenium</path>
+                <warFile>${project.build.directory}/hello.war</warFile>
   </configuration>
   </plugin>
 
